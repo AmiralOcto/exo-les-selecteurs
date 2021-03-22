@@ -3,7 +3,7 @@ section {
     border-bottom: black 1px solid;
 }
 
-h4:first-of-type {
+section:first-child>h4 {
     color: blue;
 }
 
@@ -11,7 +11,7 @@ section:nth-child(0n+2) {
     border-bottom: red 5px solid;
 }
 
-h3.exo3, ul.exo3 {
+section:nth-child(3)>h3,h3+ul>li {
     color: red;
 }
 
@@ -28,6 +28,6 @@ img {
     border-radius: 15px;
 }
 
-#exo7:hover {
+section:nth-child(7)>p:hover {
     color: green;
 }
