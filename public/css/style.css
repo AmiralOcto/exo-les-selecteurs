@@ -1,0 +1,33 @@
+section {
+    padding-bottom: 50px;
+    border-bottom: black 1px solid;
+}
+
+h4:first-of-type {
+    color: blue;
+}
+
+section:nth-child(0n+2) {
+    border-bottom: red 5px solid;
+}
+
+h3.exo3, ul.exo3 {
+    color: red;
+}
+
+li>a {
+    font-size: 25px;
+}
+
+h3 + span {
+    color: blue;
+}
+
+img {
+    border: solid brown;
+    border-radius: 15px;
+}
+
+#exo7:hover {
+    color: green;
+}
